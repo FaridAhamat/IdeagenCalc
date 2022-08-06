@@ -15,3 +15,5 @@ Example:
     50.5 is a legal number
     
     50.5.5 is not a legal number
+    
+Time taken to complete: ~6 hours
