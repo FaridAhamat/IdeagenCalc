@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdeagenCalc", "IdeagenCalc\IdeagenCalc.csproj", "{A6BFF58D-C575-4861-8B01-60660E732BDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdeagenCalcTest", "IdeagenCalcTest\IdeagenCalcTest.csproj", "{F9F210CC-B49B-4FEB-96A0-5FFF5F97A1CD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A6BFF58D-C575-4861-8B01-60660E732BDB} = {A6BFF58D-C575-4861-8B01-60660E732BDB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6BFF58D-C575-4861-8B01-60660E732BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BFF58D-C575-4861-8B01-60660E732BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BFF58D-C575-4861-8B01-60660E732BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BFF58D-C575-4861-8B01-60660E732BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F210CC-B49B-4FEB-96A0-5FFF5F97A1CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F210CC-B49B-4FEB-96A0-5FFF5F97A1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F210CC-B49B-4FEB-96A0-5FFF5F97A1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F210CC-B49B-4FEB-96A0-5FFF5F97A1CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD444D33-419F-4956-9892-0D50B17597CB}
+	EndGlobalSection
+EndGlobal
