@@ -1,4 +1,4 @@
-﻿namespace IdeagenCalc // Note: actual namespace depends on the project name.
+﻿namespace IdeagenCalc
 {
     internal class Program
     {

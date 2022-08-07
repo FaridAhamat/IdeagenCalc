@@ -19,7 +19,7 @@ namespace IdeagenCalc
                                   .Where(x => x == '(')
                                   .Count();
 
-            // Iteratively calculate whatever is in the bracket
+            // Iteratively calculate whatever is in the bracket starting from the inner most bracket
             for (int i = 1; i <= bracketCount; i++)
             {
                 int openBracketIdx = sum.LastIndexOf('(');
@@ -45,7 +45,7 @@ namespace IdeagenCalc
             List<double> numbers = GetNumbersFromExpression(subExpression);
             List<string> ops = GetOperatorsFromExpression(subExpression);
 
-            // Handle priority operator: multiple and divide
+            // Handle priority operator: multiply and divide
             for (int i = 0; i < ops.Count(); i++)
             {
                 if (ops[i] == "*" || ops[i] == "/")
@@ -57,7 +57,8 @@ namespace IdeagenCalc
                 }
             }
 
-            // Now that we have a flat expression (ex: 2+5-11+0+2-156) without brackets, we can iteratively calculate them all
+            // Now that we have a flat expression (ex: 2+5-11+0+2-156) that we can solve from left to right, 
+            // we can iteratively calculate them all
             double answer = 0;
             for (int i = 0; i < ops.Count(); i++)
             {
